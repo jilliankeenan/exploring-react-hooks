@@ -1,6 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## How to Start?
 
 In the project directory, you can run:
 
@@ -14,6 +12,7 @@ You will also see any lint errors in the console.
 
 ### React Hooks Talk
 
-This repo has been initialized using [CRA](https://create-react-app.dev/docs/getting-started/)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 

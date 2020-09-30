@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,11 +40,44 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:focus {
+  outline-color: black;
+}
+
+.pastel-pink {
+  background-color: pink;
+  border: 2px solid pink;
+}
+
+.plum-purple {
+  background-color: plum;
+  border: 2px solid plum;
+}
+
+.berry-blue {
+  background-color: lightblue;
+  border: 2px solid lightblue;
+}
+
+.button-container {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.dot {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
 }
