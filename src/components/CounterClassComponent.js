@@ -60,14 +60,4 @@ class App extends React.Component {
   }
 }
 
-// function App({ color }) {
-//   console.log(color);
-//   return (
-//     <div className="App" style={{ backgroundColor: color }}>
-//       <CounterClassComponent />
-//       {/* <HookComponent/> */}
-//     </div>
-//   );
-// }
-
 export default App;
