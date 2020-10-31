@@ -1,22 +1,18 @@
 import React, { useState, useEffect } from "react";
 import "../App.css";
 
-function useLocalStorage(key, initialValue) {
-  // State to store our value
-  // Pass initial state function to useState so logic is only executed once
-  const [storedValue, setStoredValue] = useState(() => {
-    return window.localStorage.getItem(key) || initialValue;
-  });
 
-  useEffect(() => {
-    window.localStorage.setItem(key, storedValue);
-  },[ storedValue, key ])
+function HookColourPicker() {
 
-  return [ storedValue, setStoredValue ]
-}
+  // const [colour, setColour] = useState(() => {
+  //   return window.localStorage.getItem('colour') || initialValue;
+  // });
 
-function HookColourPickerComponent() {
-  const [ colour, setColour ] =  useLocalStorage("color", "white");
+  // useEffect(() => {
+  //   window.localStorage.setItem('colour', storedValue);
+  // },[ colour ])
+
+  const [colour, setColour ] = useLocalStorage()
 
   useEffect(() => {
     console.log(`new colour is ${colour}`);
@@ -48,4 +44,18 @@ function HookColourPickerComponent() {
   );
 }
 
-export default HookColourPickerComponent;
+export default HookColourPicker;
+
+
+const useLocalStorage = () => {
+  const [colour, setColour] = useState(() => {
+    return window.localStorage.getItem('colour') || initialValue;
+  });
+
+  useEffect(() => {
+    window.localStorage.setItem('colour', storedValue);
+  },[ colour ])
+
+  return [ colour, setColour]
+
+}
