@@ -1,7 +1,8 @@
 import React from "react";
 import "../App.css";
 
-class App extends React.Component {
+
+class ClassColourPicker extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -60,4 +61,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default ClassColourPicker;

@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import CounterClassComponent from "./components/CounterClassComponent";
-import HookColourPickerComponent from "./components/HookColourPickerComponent";
+import ClassColourPicker from "./components/ClassColourPicker";
+import HookColourPicker from "./components/HookColourPicker";
 
 function App() {
   return (
     <div>
-      {/* <CounterClassComponent /> */}
+      {/* <ClassColourPickerComponent /> */}
       <HookColourPickerComponent />
     </div>
   );
