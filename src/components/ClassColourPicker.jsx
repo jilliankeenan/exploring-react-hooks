@@ -7,12 +7,11 @@ class ClassColourPicker extends React.Component {
     super(props);
     this.state = {
       colour: "",
-      stringText: "",
     };
   }
 
   componentDidMount() {
-    this.setState({ colour: "white" });
+    this.setState({ colour: "pink" });
   }
 
   componentDidUpdate() {
