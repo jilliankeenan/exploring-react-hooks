@@ -19,7 +19,6 @@ class ClassColourPicker extends React.Component {
     console.log(`My colour is ${this.state.colour}`);
   }
 
-  // style={{ backgroundColor: `${this.state.color}` }}
   render() {
     return (
       <div className="App">
