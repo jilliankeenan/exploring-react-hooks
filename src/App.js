@@ -6,8 +6,8 @@ import HookColourPickerComponent from "./components/HookColourPickerComponent";
 function App() {
   return (
     <div>
-      {/* <CounterClassComponent /> */}
-      <HookColourPickerComponent />
+      {/* <ClassColourPicker /> */}
+      <HookColourPicker />
     </div>
   );
 }
