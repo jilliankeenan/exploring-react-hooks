@@ -14,5 +14,10 @@ You will also see any lint errors in the console.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Resources for help in your hooks journey
 
+- https://usehooks.com/ - An entire library of custom hook recipes!
+- https://wattenberger.com/blog/react-hooks - Amazing post explaining the mindset behind hooks.
+- https://academy.wizeline.com/course/intro-to-react-hooks-by-cassidy-williams/ Cassidy Williams did a free intro to react hooks course, check it out she’s amazing!
+- https://www.youtube.com/watch?v=dpw9EHDh2bM - React today and Tomorrow, Dan introduces us to Hooks!
 
